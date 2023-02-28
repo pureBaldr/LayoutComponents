@@ -1,7 +1,7 @@
 {
   "name": "@dadmor/pure-baldr-layoyt-components",
-  "version": "0.0.5",
-  "description": "Taiwind UiKit wrapper",
+  "version": "0.0.1",
+  "description": "Taiwind UiKit layout components",
   "license": "MIT",
   "repository": "pureBaldr/layoutComponents",
   "main": "index.ts",
