@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@dadmor/pure-baldr-core": "^0.0.5"
+  }
+}
