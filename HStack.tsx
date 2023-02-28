@@ -7,7 +7,7 @@ interface Props {
   paddingX?: string;
   mobile?: boolean;
 }
-export const HStack: React.FC<HStackType> = ({
+export const HStack: React.FC<Props> = ({
   className = "",
   spacing = "md",
   mobile = false,
