@@ -1,6 +1,6 @@
 import { mixClass, gapMix, paddingyMix, paddingxMix  } from "@dadmor/pure-baldr-core";
 
-interface Props {
+type Props = {
   className?: string;
   size?: string;
 }

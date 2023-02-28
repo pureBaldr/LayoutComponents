@@ -1,11 +1,12 @@
 import { mixClass, gapMix, paddingyMix, paddingxMix  } from "@dadmor/pure-baldr-core";
 
-interface Props {
+type Props = {
   spacing?: string;
   className?: string;
   paddingY?: string;
   paddingX?: string;
-}
+};
+
 export const Block: React.FC<Props> = ({
   className = "",
   spacing = "md",

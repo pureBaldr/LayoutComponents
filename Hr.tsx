@@ -1,6 +1,6 @@
 import { mixClass } from "@dadmor/pure-baldr-core";
 
-interface Props {
+type  Props = {
   className?: string;
   vertical?: boolean;
   spacing?: string;

@@ -1,6 +1,6 @@
 import { mixClass, bgMix, textColorMix  } from "@dadmor/pure-baldr-core";
 
-interface Props {
+type Props = {
   bg?: string;
   text?: string;
   className?: string;
