@@ -13,7 +13,7 @@
     "react",
     "uikit",
     "tailwind",
-    "typescript"
+    "typescript",
     "layout components"
   ],
   "devDependencies": {
