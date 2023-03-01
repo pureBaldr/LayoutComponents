@@ -1,6 +1,6 @@
 {
   "name": "@dadmor/pure-baldr-layoyt-components",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Taiwind UiKit layout components",
   "license": "MIT",
   "repository": "pureBaldr/layoutComponents",
@@ -18,8 +18,9 @@
   "devDependencies": {
     "@dadmor/pure-baldr-core": "^0.0.6"
   },
-  "dependencies": {
+  "resolutions": {
     "@types/react": "^18.0.28",
-    "react-dom": "^18.2.0"
-  }
+    "@types/react-dom": "1^18.0.28"
+  },
+  "preinstall": "npm install --package-lock-only --ignore-scripts && npx npm-force-resolutions"
 }
