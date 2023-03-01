@@ -1,9 +1,11 @@
 import { mixClass, bgMix, textColorMix  } from "@dadmor/pure-baldr-core";
+import { ReactNode } from "react";
 
 type Props = {
   bg?: string;
   text?: string;
   className?: string;
+  children: ReactNode;
 }
 // TODO add paddings
 export const Color: React.FC<Props> = ({

@@ -1,4 +1,5 @@
 import { mixClass, gapMix, paddingyMix, paddingxMix  } from "@dadmor/pure-baldr-core";
+import { ReactNode } from "react";
 
 type Props = {
   spacing?: string;
@@ -6,6 +7,7 @@ type Props = {
   paddingY?: string;
   paddingX?: string;
   mobile?: boolean;
+  children: ReactNode;
 }
 export const HStack: React.FC<Props> = ({
   className = "",

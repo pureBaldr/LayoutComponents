@@ -17,8 +17,9 @@
     "layout components"
   ],
   "devDependencies": {
-    "@dadmor/pure-baldr-core": "^0.0.5",
-    "@types/react": "^18.2.0"
-    
+    "@dadmor/pure-baldr-core": "^0.0.5"
+  },
+  "dependencies": {
+    "@types/react": "^18.0.28"
   }
 }
