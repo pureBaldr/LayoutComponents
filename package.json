@@ -19,5 +19,6 @@
   "devDependencies": {
     "@dadmor/pure-baldr-core": "^0.0.5",
     "@types/react": "^18.2.0"
+    
   }
 }
