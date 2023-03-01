@@ -19,6 +19,7 @@
     "@dadmor/pure-baldr-core": "^0.0.6"
   },
   "dependencies": {
-    "@types/react": "^18.0.28"
+    "@types/react": "^18.0.28",
+    "react-dom": "^18.2.0"
   }
 }
