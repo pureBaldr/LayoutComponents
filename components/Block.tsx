@@ -10,6 +10,10 @@ type Props = {
   children: ReactNode;
 };
 
+/**
+ * General component description in JSDoc format. Markdown is *supported*.
+ */
+
 export const Block: React.FC<Props> = ({
   className = "",
   spacing = "md",
