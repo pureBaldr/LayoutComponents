@@ -1,18 +1,19 @@
 import { mixClass, gapMix, paddingyMix, paddingxMix  } from "@dadmor/pure-baldr-core";
 import { ReactNode } from "react";
+import { DimentionsType } from "@dadmor/pure-baldr-core";
 
 type Props = {
-  spacing?: string;
-  className?: string;
-  paddingY?: string;
-  paddingX?: string;
+  spacing?: DimentionsType;
+  paddingY?: DimentionsType;
+  paddingX?: DimentionsType;
   children: ReactNode;
+  className?: string;
 }
 export const VStack: React.FC<Props> = ({
-  className = "",
   spacing = "md",
-  paddingY = "",
-  paddingX = "",
+  paddingY = null,
+  paddingX = null,
+  className = "",
   children,
 }) => {
   return (

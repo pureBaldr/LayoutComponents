@@ -1,7 +1,7 @@
-export { Block } from "./Block";
-export { Color } from "./Color";
-export { Hr } from "./Hr";
-export { HStack } from "./HStack";
-export { Space } from "./Space";
-export { VStack } from "./VStack";
+export { Block } from "./components/Block";
+export { Color } from "./components/Color";
+export { Hr } from "./components/Hr";
+export { HStack } from "./components/HStack";
+export { Space } from "./components/Space";
+export { VStack } from "./components/VStack";
 
