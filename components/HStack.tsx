@@ -1,5 +1,5 @@
-import { mixClass, gapMix, paddingyMix, paddingxMix  } from "@dadmor/pure-baldr-core";
 import { ReactNode } from "react";
+import { mixClass, gapMix, paddingyMix, paddingxMix  } from "@dadmor/pure-baldr-core";
 import { DimentionsType } from "@dadmor/pure-baldr-core";
 
 type Props = {
