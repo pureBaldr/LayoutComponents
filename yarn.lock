@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@dadmor/pure-baldr-core@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@dadmor/pure-baldr-core/-/pure-baldr-core-0.0.11.tgz#7f2a9f4fdedebfc9aaa95b30df49e972d05684a6"
-  integrity sha512-G8MFzGKTG94WViHh5V6ud5I+cnFRXfdnTT/btuhe3tkxdxtuAUEl9DR2jjtQ10JFM/gZDQp1EHfCsdeMRywsRg==
+"@dadmor/pure-baldr-core@^0.0.13":
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/@dadmor/pure-baldr-core/-/pure-baldr-core-0.0.13.tgz#e31a2d225881ba6e6726994416b9978d7fb11afb"
+  integrity sha512-ww1Q5eJcClBWmyqXMDKwfjXXYlVft/TfE/mZQBe0uJ4QwrUWZRYICMK9ts804W7J/RGkk17yFc+AzvlU1wkqXQ==
 
 "@types/prop-types@*":
   version "15.7.5"

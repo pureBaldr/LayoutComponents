@@ -1,6 +1,6 @@
 {
-  "name": "@dadmor/pure-baldr-layoyt-components",
-  "version": "0.0.10",
+  "name": "@dadmor/pure-baldr-layout-components",
+  "version": "0.0.11",
   "description": "Taiwind UiKit layout components",
   "license": "MIT",
   "repository": "pureBaldr/layoutComponents",
@@ -16,7 +16,7 @@
     "layout components"
   ],
   "devDependencies": {
-    "@dadmor/pure-baldr-core": "^0.0.11",
+    "@dadmor/pure-baldr-core": "latest",
     "@types/react": "^18.0.28"
   }
 }
